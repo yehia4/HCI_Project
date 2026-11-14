@@ -96,7 +96,7 @@ npm install
 ### 3. Start the development server
 
 ```bash
-npm dev
+npm run dev
 ```
 
 Vite will print a local development URL in the terminal. Open that URL in your browser.
