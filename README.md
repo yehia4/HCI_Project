@@ -101,6 +101,14 @@ npm dev
 
 Vite will print a local development URL in the terminal. Open that URL in your browser.
 
+## Logins
+### 1. Teacher:
+  nadia.farouk
+### 2. Student:
+  omar.tarek
+
+Just type anything in the password field to enter (even 1 character works), there is no set password
+
 ### 4. Create a production build
 
 ```bash
