@@ -69,7 +69,7 @@ For this prototype, enter any non-empty password. These are **demo-only credenti
 - **Tailwind CSS 4**
 - **HTML and CSS**
 
-The project is configured as a Vite application and uses `pnpm-lock.yaml` for dependency lockfile management.
+The project is configured as a Vite application and uses `npm-lock.yaml` for dependency lockfile management.
 
 ## Getting Started
 
@@ -78,7 +78,7 @@ The project is configured as a Vite application and uses `pnpm-lock.yaml` for de
 Install:
 
 - [Node.js](https://nodejs.org/)
-- [pnpm](https://pnpm.io/installation)
+- [npm](https://npm.io/installation)
 
 ### 1. Clone the repository
 
@@ -90,13 +90,13 @@ cd HCI_Project
 ### 2. Install dependencies
 
 ```bash
-pnpm install
+npm install
 ```
 
 ### 3. Start the development server
 
 ```bash
-pnpm dev
+npm dev
 ```
 
 Vite will print a local development URL in the terminal. Open that URL in your browser.
@@ -104,13 +104,13 @@ Vite will print a local development URL in the terminal. Open that URL in your b
 ### 4. Create a production build
 
 ```bash
-pnpm build
+npm build
 ```
 
 ### 5. Preview the production build locally
 
 ```bash
-pnpm preview
+npm preview
 ```
 
 ## Project Structure
@@ -128,7 +128,7 @@ HCI_Project/
 ├── .figma/                 # Figma Make project configuration
 ├── index.html              # HTML entry point
 ├── package.json            # Scripts and dependencies
-├── pnpm-lock.yaml          # Locked dependency versions
+├── npm-lock.yaml          # Locked dependency versions
 ├── tsconfig.json           # TypeScript configuration
 └── vite.config.ts          # Vite configuration
 ```
