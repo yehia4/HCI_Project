@@ -1,0 +1,10 @@
+{
+  "description": "Helps elementary students track math progress and gives teachers a clear dashboard to review assessments, spot learning needs, and guide support.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
