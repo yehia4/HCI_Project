@@ -622,7 +622,7 @@ function Login({ onEnter }: { onEnter: (role: Role) => void }) {
     const normalizedUsername = username.trim().toLowerCase();
 
     if (!normalizedUsername) nextErrors.username = "Enter your username.";
-    if (!password.trim()) nextErrors.password = "Enter your password.";
+    if (!password) nextErrors.password = "Enter your password.";
     if (!nextErrors.username && !nextErrors.password) {
       if (normalizedUsername === "omar.tarek") onEnter("student");
       else if (normalizedUsername === "nadia.farouk") onEnter("teacher");
