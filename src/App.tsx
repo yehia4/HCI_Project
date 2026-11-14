@@ -105,7 +105,7 @@ const subjectTeachers: Record<string, SubjectInfo> = {
     full: "Frau Anna Weber",
     initials: "AW",
     // Not a flag: Windows shows flag emojis as plain letters ("DE").
-    emoji: "🥨",
+    emoji: "🇩🇪",
     color: "#D97A2B",
     soft: "#FFF1E3",
   },

@@ -10997,7 +10997,8 @@ td .badge {
 
 /* ---------- Home ---------- */
 .kid-home {
-  max-width: 980px;
+  width: 100%;
+  max-width: none;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -11493,7 +11494,8 @@ td .badge {
    v11 – "Send my test": everything on one screen, no scrolling
    ============================================================ */
 .content.up {
-  max-width: 1120px;
+  width: 100%;
+  max-width: none;
   padding-top: 18px;
   padding-bottom: 18px;
   display: flex;
@@ -12344,7 +12346,8 @@ td .badge {
 
 /* v11 – Practice: subject chips + ready-made warm-up */
 .kid-practice-page {
-  max-width: 980px;
+  width: 100%;
+  max-width: none;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -12392,7 +12395,8 @@ td .badge {
    v11 – My progress: subject chips, one message, simple bars
    ============================================================ */
 .kid-progress {
-  max-width: 1000px;
+  width: 100%;
+  max-width: none;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -12704,7 +12708,8 @@ td .badge {
 
 /* v11 – My progress: tests and practice side by side, no scrolling */
 .kid-progress {
-  max-width: 1120px;
+  width: 100%;
+  max-width: none;
 }
 .kid-progress-grid {
   min-height: 0;
